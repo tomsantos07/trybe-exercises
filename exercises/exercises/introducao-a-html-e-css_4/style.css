@@ -1,4 +1,43 @@
-.nav-links li{
-    display: inline;
-    margin-right: 50px;
+body * {
+    margin: 0; 
+    padding: 0;
+    
+}
+
+.header-content {
+    
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    background: #5434af;
+    
+    height: 60px;
+    width: 100%;
+
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.nav-links ul {
+    float: left;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 30px;
+    text-align: left;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
 }
