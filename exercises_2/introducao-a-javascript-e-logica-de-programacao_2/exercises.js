@@ -26,3 +26,12 @@ for (let index = 0; index < numbers.length; index++) {
 }
 console.log(result1)
 console.log('---------------------------------------')
+
+// EX:4
+
+if (result1 > 20) {
+    console.log('valor maior que 20')
+} else {
+    console.log('valor menor ou igual a 20')
+}
+console.log('---------------------------------------')
