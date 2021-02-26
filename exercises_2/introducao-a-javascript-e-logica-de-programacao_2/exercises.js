@@ -18,3 +18,11 @@ for (let index = 0; index < numbers.length; index++) {
 }
 console.log(result)
 console.log('---------------------------------------')
+
+// EX:3
+let result1 = 0
+for (let index = 0; index < numbers.length; index++) {
+    result1 += numbers[index] / 10
+}
+console.log(result1)
+console.log('---------------------------------------')
