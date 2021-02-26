@@ -6,3 +6,15 @@ for ( let index = 0; index < numbers.length; index++){
     console.log(numbers[index])
 
 }
+
+// EX: 2
+
+console.log(numbers.length)
+console.log('---------------------------------------')
+
+let result = 0
+for (let index = 0; index < numbers.length; index++) {
+    result += numbers[index]
+}
+console.log(result)
+console.log('---------------------------------------')
