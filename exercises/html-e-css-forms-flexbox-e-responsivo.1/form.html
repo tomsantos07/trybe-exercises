@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Faça hoje mesmo o seu cadastro!</h1>
+        <p> <em> Estude agora e comece a pagar quando estiver trabalhando!</em></p>
+    </header>
+
+ <form action="" method="GET" class="user-form">
+        <div class="user-style">
+            <div class="style-field">
+
+                <div id="form-name">
+                    <fieldset class="user-form-row">
+                        <legend>Nome</legend>
+                        <label for="user-name">*</label>
+                        <input type="text" name="name" id="user-name" maxlength="40" required>
+                    </fieldset>
+                </div>
+
+                <div id="form-email">
+                    <fieldset class="user-form-row"> 
+                        <legend>Email</legend>
+                        <label for="user-mail">*</label>
+                        <input type="email" name="email" id="user-mail" maxlength="50" required>
+                    </fieldset>
+                </div>
+
+                <div id="form-cpf">
+                    <fieldset class="user-form-row"> 
+                        <legend>CPF</legend>
+                        <label for="user-cpf">*</label>
+                        <input type="text" name="cpf" id="user-cpf" maxlength="11" required>
+                    </fieldset>
+                </div>
+                
+                <div id="form-end">
+                    <fieldset class="user-form-row"> 
+                        <legend>Endereço</legend>
+                        <label for="user-end">*</label>
+                        <input type="text" name="address" id="user-end" maxlength="200" required>
+                    </fieldset>
+                </div>
+
+                <div id="form-city">
+                    <fieldset class="user-form-row"> 
+                        <legend>Cidade</legend>
+                        <label for="user-city">*</label>
+                        <input type="text" name="city" id="user-city" >
+                    </fieldset>
+                </div>
+
+                <div id="form-state">
+                    <fieldset class="user-form-row">
+                        <legend class="generate">Estado</legend>
+                        <label for="task-list">*</label>
+                        <select name="" id="state-list"></select>
+                        
+                    </fieldset>
+                </div>
+
+                <div id="form-type">
+                    <fieldset class="user-form-row">
+                        <legend class="">Tipo</legend>
+
+                        <label for="user-type1">Casa</label>
+                        <input type="radio" name="house" id="user-type1">
+
+                        <label for="user-type2">Apartamento</label>
+                        <input type="radio" name="house" id="user-type2">
+                    </fieldset>
+                </div>
+
+                <div id="form-job">
+                    <fieldset class="user-form-row"> 
+                        <legend>Último Emprego</legend>
+                        <label for="user-job">* Descrição do cargo</label>
+                        <textarea type="text" name="job" id="user-job" maxlength="1000" required>
+
+                            <label for="user-position">* Cargo</label>
+                            <input type="text" name="position" id="user-position">
+                    </fieldset>
+                </div>                
+
+            </div>
+        </div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

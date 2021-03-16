@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-style {
+    width: 40%;
+    margin-left: 40px;
+}
+
+.user-form-row {
+    margin-bottom: 40px;
+}
